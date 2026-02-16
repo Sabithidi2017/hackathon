@@ -2,6 +2,7 @@
   "name": "attendance-client",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://sabithidi2017.github.io/hackathon/",
   "dependencies": {
     "axios": "^1.6.2",
     "react": "^18.2.0",
@@ -9,13 +10,15 @@
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "recharts": "^2.10.3",
-    "zustand": "^4.4.7"
+    "zustand": "^4.4.7",
+    "gh-pages": "^6.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "react-scripts build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
