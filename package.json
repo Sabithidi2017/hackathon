@@ -1,0 +1,14 @@
+{
+  "name": "employee-attendance-system",
+  "version": "1.0.0",
+  "description": "Full-stack Employee Attendance System with React, Node.js, Express, and MongoDB",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": ["attendance", "employee", "react", "nodejs", "mongodb"],
+  "author": "",
+  "license": "MIT"
+}
